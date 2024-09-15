@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+.container{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    padding: 30px;
+    background-color: rgb(185, 150, 150);
+    align-items: center;
+}
+button{
+    background-color: rgb(146, 230, 146);
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+input{
+    height: 35px;
+    border: none;
+    width: 250px;
+}
+
+.desc-tarea ul{
+    display: flex;
+    display: flex;
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+    align-items: center;
+}
